@@ -12,33 +12,23 @@ app.get('/', function (req, res) {
 });
 
 app.get('/api', function (req, res) {
-  Farm.find({}, function (err, users) {
-    res.send(users);
+  Farm.find({}, function (err, farms) {
+    res.send(farms);
   })
 });
 
 app.get('/api/zip/:zipcode', function (req, res) {
-  var response = [];
-  data.forEach(function(item, index) {
-     if(item.Location_Zip == req.params.zipcode) {
-       response.push(item);
-     }
-  })
-
-  res.send(response);
-  console.log('found ' + response.length + ' items');
+  Farm.find({Location_Zip: req.params.zipcode}, function (err, farms) {
+    res.send(farms);
+    console.log(`found ${farms.length} farms`);
+  });
 });
 
 app.get('/api/state/:name', function (req, res) {
-  var response = [];
-  data.forEach(function(item, index) {
-     if(item.Location_State.toLowerCase() == req.params.name.toLowerCase()) {
-       response.push(item);
-     }
-  })
-
-  res.send(response);
-  console.log('found ' + response.length + ' items');
+  Farm.find({Location_State: req.params.name}, function (err, farms) {
+    res.send(farms);
+    console.log(`found ${farms.length} farms`);
+  });
 });
 
 // Body parser
