@@ -1,17 +1,20 @@
 var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
-var data = require('./data');
 var cors = require('cors');
+
+var Farm = require('./db').Farm;
 
 app.use(cors());
 
 app.get('/', function (req, res) {
-  res.send('Hello World!');
+  res.send('Hey, dude!');
 });
 
 app.get('/api', function (req, res) {
-  res.send(data);
+  Farm.find({}, function (err, users) {
+    res.send(users);
+  })
 });
 
 app.get('/api/zip/:zipcode', function (req, res) {
