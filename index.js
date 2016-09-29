@@ -7,6 +7,9 @@ var Farm = require('./db').Farm;
 
 app.use(cors());
 
+//---
+// Routes
+//
 app.get('/', function (req, res) {
   res.send('Hey, dude!');
 });
@@ -30,6 +33,12 @@ app.get('/api/state/:name', function (req, res) {
     console.log(`found ${farms.length} farms`);
   });
 });
+
+
+
+import { cleanUpStateNames } from './actions.js';
+
+app.get('/tools/cleanUpStateNames/:name', cleanUpStateNames);
 
 // Body parser
 app.use(bodyParser.json());
