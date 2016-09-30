@@ -1,6 +1,6 @@
 import Farm from '../models/farm.model';
 
-function slugify(string) {
+export const slugify = (string) => {
   return string.toString().toLowerCase().trim()
     .replace(/\s+/g, '-')           // Replace spaces with -
     .replace(/&/g, '-and-')         // Replace & with 'and'

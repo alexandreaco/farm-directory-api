@@ -6,6 +6,7 @@ import connect from './util/db';
 
 import {
   getAllFarms,
+  getFarmsByQuery,
   getFarmsByZip,
   getFarmsByState,
 } from './controllers/farm.controller'
@@ -27,10 +28,7 @@ app.get('/', function (req, res) {
 // Farm routes
 
 app.get('/api', getAllFarms);
-
-app.get('/api/zip/:zipcode', getFarmsByZip);
-
-app.get('/api/state/:state', getFarmsByState);
+app.get('/api/farms/', getFarmsByQuery);
 
 // Util routes for development help
 
