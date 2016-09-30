@@ -2,49 +2,48 @@ var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
 var cors = require('cors');
+import connect from './util/db';
 
-var Farm = require('./db').Farm;
+import {
+  getAllFarms,
+  getFarmsByZip,
+  getFarmsByState,
+} from './controllers/farm.controller'
 
-app.use(cors());
+import {
+  cleanUpStateNames,
+} from './util/actions';
 
 //---
 // Routes
 //
+
+// Index route
+
 app.get('/', function (req, res) {
-  res.send('Hey, dude!');
+  res.send('👋');
 });
 
-app.get('/api', function (req, res) {
-  Farm.find({}, function (err, farms) {
-    res.send(farms);
-  })
-});
+// Farm routes
 
-app.get('/api/zip/:zipcode', function (req, res) {
-  Farm.find({Location_Zip: req.params.zipcode}, function (err, farms) {
-    res.send(farms);
-    console.log(`found ${farms.length} farms`);
-  });
-});
+app.get('/api', getAllFarms);
 
-app.get('/api/state/:name', function (req, res) {
-  Farm.find({Location_State: req.params.name}, function (err, farms) {
-    res.send(farms);
-    console.log(`found ${farms.length} farms`);
-  });
-});
+app.get('/api/zip/:zipcode', getFarmsByZip);
 
+app.get('/api/state/:state', getFarmsByState);
 
-
-import { cleanUpStateNames } from './actions.js';
+// Util routes for development help
 
 app.get('/tools/cleanUpStateNames/:name', cleanUpStateNames);
 
-// Body parser
-app.use(bodyParser.json());
+//---
+// Connect to Database and boot server
 
-
-
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!');
+connect()
+.then(() => {
+  app.use(cors());
+  app.use(bodyParser.json());
+  app.listen(3000, function () {
+    console.log('Example app listening on port 3000!');
+  });
 });

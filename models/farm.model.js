@@ -1,16 +1,8 @@
-var uri = 'mongodb://localhost:27017/farm-markets';
+//---
+// Farm model
+
 var mongoose = require('mongoose')
-
-// connect to db
-mongoose.connect(uri)
-var db = mongoose.connection
-db.on('error', console.error.bind(console, 'connection error:'))
-db.once('open', function (callback) {
-  console.log('Connected to Database 🎉')
-})
-
-
-// schemas
+var uri = 'mongodb://localhost:27017/farm-markets';
 
 var farmSchema = mongoose.Schema({
   OF_ID: String,
@@ -94,6 +86,8 @@ var farmSchema = mongoose.Schema({
   Payment_3: Number,
   Payment_4: Number,
   Payment_1: Number,
-})
+});
 
-exports.Farm = mongoose.model('Farm', farmSchema)
+// export farm model
+const Farm = mongoose.model('Farm', farmSchema);
+export default Farm;
