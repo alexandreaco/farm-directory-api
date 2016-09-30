@@ -1,48 +1,52 @@
 var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
-var data = require('./data');
 var cors = require('cors');
+var debug = require('debug')('app');
+import connect from './util/db';
 
-app.use(cors());
+import {
+  getAllFarms,
+  getFarmsByQuery,
+  getFarmsByZip,
+  getFarmsByState,
+} from './controllers/farm.controller'
+
+import {
+  cleanUpStateNames,
+} from './util/actions';
+
+//---
+// Routes
+//
+
+// Index route
 
 app.get('/', function (req, res) {
-  res.send('Hello World!');
+  res.send('👋');
 });
 
-app.get('/api', function (req, res) {
-  res.send(data);
-});
+// Farm routes
 
-app.get('/api/zip/:zipcode', function (req, res) {
-  var response = [];
-  data.forEach(function(item, index) {
-     if(item.Location_Zip == req.params.zipcode) {
-       response.push(item);
-     }
-  })
+app.get('/api', getAllFarms);
+app.get('/api/farms/', getFarmsByQuery);
 
-  res.send(response);
-  console.log('found ' + response.length + ' items');
-});
+// Util routes for development help
 
-app.get('/api/state/:name', function (req, res) {
-  var response = [];
-  data.forEach(function(item, index) {
-     if(item.Location_State.toLowerCase() == req.params.name.toLowerCase()) {
-       response.push(item);
-     }
-  })
+app.get('/tools/cleanUpStateNames/:name', cleanUpStateNames);
 
-  res.send(response);
-  console.log('found ' + response.length + ' items');
-});
+//---
+// Apply Middleware
 
-// Body parser
+app.use(cors());
 app.use(bodyParser.json());
 
+//---
+// Connect to Database and boot server
 
-
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!');
+connect()
+.then(() => {
+  app.listen(3000, function () {
+    debug('Farm Directory API listening on port 3000!');
+  });
 });
