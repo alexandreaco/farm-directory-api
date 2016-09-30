@@ -37,12 +37,16 @@ app.get('/api/state/:state', getFarmsByState);
 app.get('/tools/cleanUpStateNames/:name', cleanUpStateNames);
 
 //---
+// Apply Middleware
+
+app.use(cors());
+app.use(bodyParser.json());
+
+//---
 // Connect to Database and boot server
 
 connect()
 .then(() => {
-  app.use(cors());
-  app.use(bodyParser.json());
   app.listen(3000, function () {
     console.log('Example app listening on port 3000!');
   });
