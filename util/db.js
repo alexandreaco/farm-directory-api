@@ -1,5 +1,6 @@
 var uri = 'mongodb://localhost:27017/farm-markets';
 var mongoose = require('mongoose')
+var debug = require('debug')('app');
 
 // connect to db
 const connect = () => {
@@ -8,7 +9,7 @@ const connect = () => {
     var db = mongoose.connection
     db.on('error', console.error.bind(console, 'connection error:'))
     db.once('open', () => {
-      resolve(console.log('Connected to Database 🎉'));
+      resolve(debug('Connected to Database 🎉'));
     })
   });
 }
