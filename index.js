@@ -17,6 +17,12 @@ import {
 } from './util/actions';
 
 //---
+// Apply Middleware
+
+app.use(cors());
+app.use(bodyParser.json());
+
+//---
 // Routes
 //
 
@@ -34,12 +40,6 @@ app.get('/api/farms/', getFarmsByQuery);
 // Util routes for development help
 
 app.get('/tools/cleanUpStateNames/:name', cleanUpStateNames);
-
-//---
-// Apply Middleware
-
-app.use(cors());
-app.use(bodyParser.json());
 
 //---
 // Connect to Database and boot server
