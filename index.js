@@ -17,6 +17,10 @@ import {
 } from './util/actions';
 
 //---
+// Set port
+app.set('port', (process.env.PORT || 5000));
+
+//---
 // Apply Middleware
 
 app.use(cors());
@@ -46,7 +50,7 @@ app.get('/tools/cleanUpStateNames/:name', cleanUpStateNames);
 
 connect()
 .then(() => {
-  app.listen(3000, function () {
-    debug('Farm Directory API listening on port 3000!');
+  app.listen(app.get('port'), function() {
+    debug('Farm Directory API listening on port 5000!');
   });
 });
