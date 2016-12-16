@@ -2,7 +2,8 @@
 // Farm model
 
 var mongoose = require('mongoose')
-var uri = 'mongodb://localhost:27017/farm-markets';
+// var uri = 'mongodb://localhost:27017/farm-markets';
+// var uri = process.env.MONGOLAB_URI;
 
 var farmSchema = mongoose.Schema({
   OF_ID: String,

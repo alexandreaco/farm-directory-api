@@ -1,4 +1,5 @@
-var uri = 'mongodb://localhost:27017/farm-markets';
+// var uri = 'mongodb://localhost:27017/farm-markets';
+var uri = process.env.MONGOLAB_URI;
 var mongoose = require('mongoose')
 var debug = require('debug')('app');
 
