@@ -1,0 +1,25 @@
+swagger: "2.0"
+info:
+  version: 1.0.0
+  title: Farm API
+host: farm-api.herokuapp.com
+basePath: /api
+schemes:
+  - http
+consumes:
+  - application/json
+produces:
+  - application/json
+paths:
+  /farms:
+    get:
+      summary: List of farms
+      parameters:
+        - name: state
+          in: query
+          description: Which state to filter farms by
+          required: true
+          type: string
+      responses:
+        "200":
+          description: An array of farm objects
