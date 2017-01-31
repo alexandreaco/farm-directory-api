@@ -14,6 +14,7 @@ import {
 
 import {
   cleanUpStateNames,
+  buildoutFarmObject,
 } from './util/actions';
 
 //---
@@ -44,6 +45,7 @@ app.get('/api/farms/', getFarmsByQuery);
 // Util routes for development help
 
 app.get('/tools/cleanUpStateNames/:name', cleanUpStateNames);
+app.get('/api/util/build-out-farms', buildoutFarmObject);
 
 //---
 // Connect to Database and boot server

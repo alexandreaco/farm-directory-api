@@ -2,10 +2,30 @@
 // Farm model
 
 var mongoose = require('mongoose')
-// var uri = 'mongodb://localhost:27017/farm-markets';
-// var uri = process.env.MONGOLAB_URI;
 
 var farmSchema = mongoose.Schema({
+  address: {
+    street: String,
+    city: String,
+    state: String,
+    zip: String,
+    lat: Number,
+    lon: Number,
+  },
+  name: String,
+  info: {
+    website: String,
+    facebook: String,
+    twitter: String,
+    instagram: String,
+  },
+  seasons: [{
+    date: String,
+    time: String,
+    notes: String,
+    products: String,
+  }],
+  /* Depreciated */
   OF_ID: String,
   createTime: String,
   updateTime: String,
