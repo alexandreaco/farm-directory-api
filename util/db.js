@@ -1,4 +1,4 @@
-// var uri = 'mongodb://localhost:27017/farm-markets';
+require('dotenv').config()
 var uri = process.env.MONGOLAB_URI;
 var mongoose = require('mongoose')
 var debug = require('debug')('app');
