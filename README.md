@@ -14,7 +14,7 @@ Then import the database dump `$ mongoimport --db farm-markets --collection farm
 
 Then `$ npm start` to boot the server
 
-Access the server from `http://localhost:3000/`
+Access the server from `http://localhost:5000/`
 
 # Available Routes
 
