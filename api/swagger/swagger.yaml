@@ -1,9 +1,9 @@
 swagger: "2.0"
 info:
-  version: 1.0.0
-  title: Farm API
+  version: "1.0.0"
+  title: "Farm API"
 host: farm-api.herokuapp.com
-basePath: /api
+basePath: "/api"
 schemes:
   - http
 consumes:
@@ -13,13 +13,13 @@ produces:
 paths:
   /farms:
     get:
-      summary: List of farms
+      summary: "List of farms"
       parameters:
-        - name: state
+        - name: state"
           in: query
-          description: Which state to filter farms by
+          description: "Which state to filter farms by"
           required: true
           type: string
       responses:
         "200":
-          description: An array of farm objects
+          description: "An array of farm objects"

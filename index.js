@@ -3,6 +3,7 @@ var app = express();
 var bodyParser = require('body-parser');
 var cors = require('cors');
 var debug = require('debug')('app');
+var middleware = require('swagger-express-middleware');
 import connect from './util/db';
 
 import {
@@ -20,12 +21,6 @@ import {
 //---
 // Set port
 app.set('port', (process.env.PORT || 5000));
-
-//---
-// Apply Middleware
-
-app.use(cors());
-app.use(bodyParser.json());
 
 //---
 // Routes
@@ -52,7 +47,20 @@ app.get('/api/util/build-out-farms', buildoutFarmObject);
 
 connect()
 .then(() => {
-  app.listen(app.get('port'), function() {
-    debug('Farm Directory API listening on port 5000!');
+  middleware('api/swagger/swagger.yaml', app, function(err, middleware) {
+    // Add all the Swagger Express Middleware, or just the ones you need.
+    // NOTE: Some of these accept optional options (omitted here for brevity)
+    app.use(
+      middleware.metadata(),
+      middleware.CORS(),
+      middleware.files(),
+      middleware.parseRequest(),
+      middleware.validateRequest(),
+      middleware.mock()
+    );
+
+    app.listen(8000, function() {
+      debug('Farm Directory API listening on port 5000!');
+    });
   });
-});
+})
