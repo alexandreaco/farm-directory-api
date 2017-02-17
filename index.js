@@ -59,7 +59,7 @@ connect()
       middleware.mock()
     );
 
-    app.listen(8000, function() {
+    app.listen(5000, function() {
       debug('Farm Directory API listening on port 5000!');
     });
   });
