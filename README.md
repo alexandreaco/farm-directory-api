@@ -13,6 +13,8 @@ Then `$ npm install`
 Then import the database dumps
 `$ mongoimport --db farm-markets --collection farms --drop --file backup/export.json`
 `$ mongoimport --db farm-markets --collection products --drop --file backup/products.json`
+`$ mongoimport --db farm-markets --collection facilities --drop --file backup/facilities.json`
+`$ mongoimport --db farm-markets --collection activities --drop --file backup/activities.json`
 
 Then `$ npm start` to boot the server
 
