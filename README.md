@@ -10,7 +10,9 @@ Make sure you have `$ npm install nodemon -g` and [mongodb](https://www.mongodb.
 
 Then `$ npm install`
 
-Then import the database dump `$ mongoimport --db farm-markets --collection farms --drop --file backup/export.json`
+Then import the database dumps
+`$ mongoimport --db farm-markets --collection farms --drop --file backup/export.json`
+`$ mongoimport --db farm-markets --collection products --drop --file backup/products.json`
 
 Then `$ npm start` to boot the server
 
