@@ -16,6 +16,8 @@ import {
 import {
   cleanUpStateNames,
   buildoutFarmObject,
+  compileFacilities,
+  readCSV,
 } from './util/actions';
 
 //---
@@ -41,6 +43,8 @@ app.get('/api/farms/', getFarmsByQuery);
 
 app.get('/tools/cleanUpStateNames/:name', cleanUpStateNames);
 app.get('/api/util/build-out-farms', buildoutFarmObject);
+app.get('/tools/compileFacilities', compileFacilities);
+app.get('/tools/readCSV', readCSV);
 
 //---
 // Connect to Database and boot server

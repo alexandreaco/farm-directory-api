@@ -1,4 +1,8 @@
 import Farm from '../models/farm.model';
+import Facility from '../models/facility.model';
+const fs = require('fs');
+var parse = require('csv-parse');
+
 var debug = require('debug')('app');
 
 export const slugify = (string) => {
@@ -112,5 +116,84 @@ export const buildoutFarmObject = (req, res) => {
         rows: farms,
       });
     });
+  });
+}
+
+
+export const readCSV = (req, res) => {
+  const response = [];
+  const inputFile='./backup/farms.csv';
+  let keys = [];
+  var parser = parse({ delimiter: ',' }, function (err, data) {
+    data.forEach((line, i) => {
+      if (i === 0 ) {
+        keys = line;
+        debug(line);
+      } else {
+        let object = {}
+        // keys.forEach((key, i) => {
+        //   object[key] = line[i];
+        // });
+        object = {
+          name: line[keys.indexOf('MarketName')],
+          description: line[keys.indexOf('Location')],
+          contact: {
+            website: line[keys.indexOf('Website')],
+            facebook: line[keys.indexOf('Facebook')],
+            twitter: line[keys.indexOf('Twitter')],
+            youtube: line[keys.indexOf('Youtube')],
+            instagram: line[keys.indexOf('OtherMedia')],
+          },
+          address: {
+            street: line[keys.indexOf('street')],
+            city: line[keys.indexOf('city')],
+            county: line[keys.indexOf('County')],
+            state: line[keys.indexOf('State')],
+            zip: line[keys.indexOf('zip')],
+          },
+          loc: {
+            lat: line[keys.indexOf('y')],
+            lon: line[keys.indexOf('x')],
+          },
+          payment: {
+            hasCredit: line[keys.indexOf('Credit')] === "Y" || false,
+            hasWIC: line[keys.indexOf('WIC')] === "Y" || false,
+            hasWICcash: line[keys.indexOf('WICcash')] === "Y" || false,
+            hasSFMNP: line[keys.indexOf('SFMNP')] === "Y" || false,
+            hasSNAP: line[keys.indexOf('SNAP')] === "Y" || false,
+          },
+        }
+        response.push(object);
+      }
+    })
+    res.send(response)
+  });
+
+  fs.createReadStream(inputFile).pipe(parser)
+
+}
+
+export const compileFacilities = (req, res) => {
+  Farm.find({}, (err, farms) => {
+    if (err) {
+      res.send(err);
+    }
+    debug(`found ${farms.length} farms`);
+    const facilities = [];
+    farms.forEach(farm => {
+      if (farm.ActivityList.length > 0) {
+        const innerFacilities = farm.ActivityList.split("   ");
+        // add each facility if it's not already in the list
+        innerFacilities.forEach(fac => {
+          const shortString = fac.trim();
+          // don't include other
+          if (shortString.indexOf('Other') < 0) {
+            if (facilities.indexOf(shortString) < 0) facilities.push(shortString);
+          }
+          // facilities.push(fac);
+        });
+      }
+    });
+    res.send(facilities);
   });
 }
