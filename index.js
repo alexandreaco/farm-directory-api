@@ -18,6 +18,7 @@ import {
   buildoutFarmObject,
   compileFacilities,
   readCSV,
+  getLocations,
 } from './util/actions';
 
 //---
@@ -44,7 +45,8 @@ app.get('/api/farms/', getFarmsByQuery);
 app.get('/tools/cleanUpStateNames/:name', cleanUpStateNames);
 app.get('/api/util/build-out-farms', buildoutFarmObject);
 app.get('/tools/compileFacilities', compileFacilities);
-app.get('/tools/readCSV', readCSV);
+// app.get('/tools/readCSV', readCSV);  // don't turn on. you'll add duplicates
+app.get('/locations', getLocations);
 
 //---
 // Connect to Database and boot server
