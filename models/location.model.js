@@ -33,7 +33,8 @@ var locationSchema = mongoose.Schema({
     hasSFMNP: Boolean,
     hasSNAP: Boolean,
   },
-  products: [{ type: Schema.Types.ObjectId, ref: 'Product' }]
+  products: [{ type: Schema.Types.ObjectId, ref: 'Product' }],
+  stateID: String,
 });
 
 const Location = mongoose.model('Location', locationSchema);

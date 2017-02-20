@@ -26,29 +26,6 @@ import {
 app.set('port', (process.env.PORT || 5000));
 
 //---
-// Routes
-//
-
-// Index route
-
-app.get('/', function (req, res) {
-  res.send('👋');
-});
-
-// Farm routes
-
-app.get('/api', getAllFarms);
-app.get('/api/farms/', getFarmsByQuery);
-
-// Util routes for development help
-
-app.get('/tools/cleanUpStateNames/:name', cleanUpStateNames);
-app.get('/api/util/build-out-farms', buildoutFarmObject);
-app.get('/tools/compileFacilities', compileFacilities);
-// app.get('/tools/readCSV', readCSV);  // don't turn on. you'll add duplicates
-app.get('/locations', getLocations);
-
-//---
 // Connect to Database and boot server
 
 connect()
@@ -59,11 +36,34 @@ connect()
     app.use(
       middleware.metadata(),
       middleware.CORS(),
-      middleware.files(),
-      middleware.parseRequest(),
-      middleware.validateRequest(),
-      middleware.mock()
+      // middleware.files(),
+      // middleware.parseRequest(),
+      // middleware.validateRequest(),
+      // middleware.mock()
     );
+
+    //---
+    // Routes
+    //
+
+    // Index route
+
+    app.get('/', function (req, res) {
+      res.send('👋');
+    });
+
+    // Farm routes
+
+    app.get('/api', getAllFarms);
+    app.get('/api/farms/', getFarmsByQuery);
+
+    // Util routes for development help
+
+    app.get('/tools/cleanUpStateNames/:name', cleanUpStateNames);
+    app.get('/api/util/build-out-farms', buildoutFarmObject);
+    app.get('/tools/compileFacilities', compileFacilities);
+    app.get('/api/locations', getLocations);
+    // app.get('/tools/readCSV', readCSV);  // don't turn on. you'll add duplicates
 
     app.listen(5000, function() {
       debug('Farm Directory API listening on port 5000!');

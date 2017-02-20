@@ -130,7 +130,13 @@ const getProducts = () => {
 }
 
 export const getLocations = (req, res) => {
-  Location.find({})
+  debug('here')
+  const query = {};
+  if (req.query.state) {
+    query.stateID = slugify(req.query.state);
+  }
+
+  Location.find(query)
   .populate('products')
   .exec(function (err, data) {
     if (err) reject(err);
@@ -181,6 +187,7 @@ export const readCSV = (req, res) => {
             hasSFMNP: line[keys.indexOf('SFMNP')] === "Y" || false,
             hasSNAP: line[keys.indexOf('SNAP')] === "Y" || false,
           },
+          stateID: slugify(line[keys.indexOf('State')]),
         }
         const products = [];
         if (line[keys.indexOf('Organic')] === 'Y') products.push("58a74b424b8a02185d3e3769");

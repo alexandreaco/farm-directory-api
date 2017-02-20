@@ -15,7 +15,7 @@ paths:
     get:
       summary: "List of farms"
       parameters:
-        - name: state"
+        - name: state
           in: query
           description: "Which state to filter farms by"
           required: true
@@ -23,3 +23,28 @@ paths:
       responses:
         "200":
           description: "An array of farm objects"
+  /locations:
+    get:
+      summary: "List of locations (farms & markets)"
+      parameters:
+        - name: state
+          in: query
+          description: "Which state to filter locations by"
+          type: string
+      responses:
+        "200":
+          description: "An array of location objects"
+          schema:
+            type: object
+            properties:
+              count:
+                type: array
+                $ref: "#/definitions/location"
+
+definitions:
+  location:
+    properties:
+      name:
+        type: string
+      description:
+        type: string
