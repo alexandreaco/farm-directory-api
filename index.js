@@ -19,6 +19,7 @@ import {
   compileFacilities,
   readCSV,
   getLocations,
+  readFarmsCSV,
 } from './util/actions';
 
 //---
@@ -64,6 +65,7 @@ connect()
     app.get('/tools/compileFacilities', compileFacilities);
     app.get('/api/locations', getLocations);
     // app.get('/tools/readCSV', readCSV);  // don't turn on. you'll add duplicates
+    app.get('/tools/readFarmsCSV', readFarmsCSV);  // don't turn on. you'll add duplicates
 
     app.listen(5000, function() {
       debug('Farm Directory API listening on port 5000!');

@@ -35,6 +35,12 @@ var locationSchema = mongoose.Schema({
   },
   products: [{ type: Schema.Types.ObjectId, ref: 'Product' }],
   stateID: String,
+  seasons: [{
+    days: String,
+    time: String,
+    notes: String,
+    products: [{ type: Schema.Types.ObjectId, ref: 'Product' }],
+  }]
 });
 
 const Location = mongoose.model('Location', locationSchema);

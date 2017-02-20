@@ -7,6 +7,11 @@ var parse = require('csv-parse');
 
 var debug = require('debug')('app');
 
+import { addProduct } from './addProduct';
+import { addListOfProducts } from './addListOfProducts';
+import { processSeason } from './processSeason';
+import { processFarm } from './processFarm';
+
 export const slugify = (string) => {
   return string.toString().toLowerCase().trim()
     .replace(/\s+/g, '-')           // Replace spaces with -
@@ -149,7 +154,7 @@ export const getLocations = (req, res) => {
 
 export const readCSV = (req, res) => {
   const response = [];
-  const inputFile='./backup/farms.csv';
+  const inputFile='./backup/farmers-markets.csv';
   let keys = [];
   var parser = parse({ delimiter: ',' }, function (err, data) {
     data.forEach((line, i) => {
@@ -233,6 +238,56 @@ export const readCSV = (req, res) => {
 
   fs.createReadStream(inputFile).pipe(parser)
 }
+
+export const readFarmsCSV = (req, res) => {
+  const response = [];
+  const inputFile='./backup/on-farm-market.csv';
+  let keys = [];
+  var parser = parse({ delimiter: ',' }, function (err, data) {
+    keys = data[0];
+    const farmPromises = data.map((line, i) => {
+      if (i > 0) {
+        return processFarm(line, keys, i);
+      }
+      return {};
+    })
+
+    Promise.all(farmPromises)
+    .then(farms => {
+      debug('complete!!');
+      res.send(farms);
+    });
+  });
+  fs.createReadStream(inputFile).pipe(parser);
+}
+
+const parseFarms = (farms, keys) => {
+  debug('parsing farms');
+  const farmPromises = farms.map(farm => {
+    return parseFarm(farm, keys);
+  })
+  return Promise.all(farmPromises);
+}
+
+
+
+
+
+
+
+
+//
+//
+//
+//   // const productIDs = [];
+//   // const productIDs = products.map(product => {
+//     return new Promise(resolve => {
+//
+//     })
+//   })
+//   debug(productIDs);
+//   return productIDs;
+// }
 
 export const compileFacilities = (req, res) => {
   Farm.find({}, (err, farms) => {
