@@ -1,6 +1,7 @@
 var debug = require('debug')('app');
 import { processSeason } from './processSeason';
 import { processActivityList } from './processActivityList';
+import { processFacilities } from './processFacilities';
 
 export const slugify = (string) => {
   return string.toString().toLowerCase().trim()
@@ -48,7 +49,11 @@ export const processFarm = (line, keys, i) => {
     return processActivityList(line, keys, i)
     .then(activities => {
       farm.activities = activities;
-      return farm;
+      return processFacilities(line, keys, i)
+      .then(facilities => {
+        farm.facilities = facilities;
+        return farm;
+      });
     })
   })
 }
