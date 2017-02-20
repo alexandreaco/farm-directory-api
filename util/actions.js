@@ -11,6 +11,8 @@ import { addProduct } from './addProduct';
 import { addListOfProducts } from './addListOfProducts';
 import { processSeason } from './processSeason';
 import { processFarm } from './processFarm';
+import { addActivity } from './addActivity';
+import { processActivityList } from './processActivityList';
 
 export const slugify = (string) => {
   return string.toString().toLowerCase().trim()
@@ -268,26 +270,6 @@ const parseFarms = (farms, keys) => {
   })
   return Promise.all(farmPromises);
 }
-
-
-
-
-
-
-
-
-//
-//
-//
-//   // const productIDs = [];
-//   // const productIDs = products.map(product => {
-//     return new Promise(resolve => {
-//
-//     })
-//   })
-//   debug(productIDs);
-//   return productIDs;
-// }
 
 export const compileFacilities = (req, res) => {
   Farm.find({}, (err, farms) => {

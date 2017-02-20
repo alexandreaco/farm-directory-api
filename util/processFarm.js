@@ -45,6 +45,10 @@ export const processFarm = (line, keys, i) => {
   return Promise.all(farmPromises)
   .then(seasons => {
     farm.seasons = seasons;
-    return farm;
+    return processActivityList(line, keys, i)
+    .then(activities => {
+      farm.activities = activities;
+      return farm;
+    })
   })
 }
