@@ -1,4 +1,5 @@
 var debug = require('debug')('app');
+import Location from '../models/location.model';
 import { processSeason } from './processSeason';
 import { processActivityList } from './processActivityList';
 import { processFacilities } from './processFacilities';
@@ -52,6 +53,11 @@ export const processFarm = (line, keys, i) => {
       return processFacilities(line, keys, i)
       .then(facilities => {
         farm.facilities = facilities;
+
+        // save in DB
+        const newFarmLocation = new Location(farm);
+        newFarmLocation.save();
+
         return farm;
       });
     })

@@ -147,6 +147,8 @@ export const getLocations = (req, res) => {
 
   Location.find(query)
   .populate('products')
+  .populate('facilities')
+  .populate('activities')
   .exec(function (err, data) {
     if (err) reject(err);
     res.send({
@@ -261,10 +263,6 @@ export const readFarmsCSV = (req, res) => {
       debug('complete!!');
       res.send(farms);
     });
-    // const line = [ '4017399', '2014-09-06 14:01:59', '2014-09-06 14:31:46', '2014-09-06 14:31:46', '10600 Highland Springs Ave.', 'Cherry Valley', 'California', '6', '92223', '-116.944304', '33.969105', '123 Farm at Highland Springs Resort', 'www.123farm.com', 'https://www.facebook.com/hsresort', '', '01/01/2014 to 12/31/2014', 'Tue: 8:00 AM - 8:00 PM  Wed: 8:00 AM - 8:00 PM  Thu: 8:00 AM - 8:00 PM  Fri: 8:00 AM - 8:00 PM  Sat: 8:00 AM - 8:00 PM  Sun: 8:00 AM - 3:00 PM  ', 'We are closed on Mondays. The hiking trails are open Tues.-Sun. all summer and weekends ONLY fall and winter', 'Baked goods   Cut flowers   Herbs   Soap   Wild harvested forest products  ', '', '', '', '', '', '', '', '', '', '', '', '', '1', '0', '0', '0', '0', '1', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '1', '0', 'Celebrations/ corporate events   Educational tours/ classes   Farm meals (lunches  dinners  etc.)    Other: farm camp programs for schools: www.123farm/school  ', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', 'Hand washing station(s)   Flush toilets   Picnic areas with tables   ', '1', '1', '0', '1', '0', '1', '1', '1', '0', '' ];
-    // const keys = [ 'OF_ID', 'createTime', 'updateTime', 'finishTime', 'Location_ST', 'Location_City', 'Location_State', 'Location_StateFIPS', 'Location_Zip', 'x', 'y', 'marketname', 'Market_Website', 'Market_Facebook', 'Market_Twitter', 'season1_date', 'season1_time', 'season1_notes', 'season1_products', 'season2_date', 'season2_time', 'season2_notes', 'season2_products', 'season3_date', 'season3_time', 'season3_notes', 'season3_products', 'season4_date', 'season4_time', 'season4_notes', 'season4_products', 'Product_1', 'Product_2', 'Product_3', 'Product_4', 'Product_5', 'Product_6', 'Product_7', 'Product_8', 'Product_9', 'Product_10', 'Product_11', 'Product_12', 'Product_13', 'Product_14', 'Product_15', 'Product_16', 'Product_17', 'Product_18', 'Product_19', 'Product_20', 'Product_21', 'Product_22', 'Product_23', 'Product_24', 'Product_25', 'Product_26', 'Product_27', 'Product_28', 'ActivityList', 'Activity_1', 'Activity_2', 'Activity_3', 'Activity_4', 'Activity_5', 'Activity_6', 'Activity_7', 'Activity_8', 'Activity_9', 'Activity_10', 'Activity_11', 'FacilitiesList', 'Facilities_1', 'Facilities_2', 'Facilities_3', 'Facilities_4', 'Facilities_5', 'Payment_2', 'Payment_3', 'Payment_4', 'Payment_1', '' ];
-    // processFacilities(line, keys, 0)
-    // .then(data => res.send(data))
   });
   fs.createReadStream(inputFile).pipe(parser);
 }

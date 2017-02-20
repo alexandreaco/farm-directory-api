@@ -40,7 +40,9 @@ var locationSchema = mongoose.Schema({
     time: String,
     notes: String,
     products: [{ type: Schema.Types.ObjectId, ref: 'Product' }],
-  }]
+  }],
+  facilities: [{ type: Schema.Types.ObjectId, ref: 'Facility' }],
+  activities: [{ type: Schema.Types.ObjectId, ref: 'Activity' }],
 });
 
 const Location = mongoose.model('Location', locationSchema);
