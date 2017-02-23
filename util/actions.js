@@ -24,7 +24,6 @@ export const slugify = (string) => {
     .replace(/\-\-+/g, '-');        // Replace multiple - with single -
 }
 
-
 export const cleanUpStateNames = (req, res) => {
 
   const query = { Location_State: req.params.name };
@@ -134,26 +133,6 @@ const getProducts = () => {
   return new Promise((resolve, reject) => {
     Product.find({}, (err, product) => {
       resolve(product);
-    });
-  });
-}
-
-export const getLocations = (req, res) => {
-  debug('here')
-  const query = {};
-  if (req.query.state) {
-    query.stateID = slugify(req.query.state);
-  }
-
-  Location.find(query)
-  .populate('products')
-  .populate('facilities')
-  .populate('activities')
-  .exec(function (err, data) {
-    if (err) reject(err);
-    res.send({
-      count: data.length,
-      rows: data,
     });
   });
 }

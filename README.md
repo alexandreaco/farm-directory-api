@@ -1,6 +1,6 @@
 # Farm Directory API
 
-🐮 Serves up data about farms in the US with on-site markets
+🐮 Serves up data about farms and farmer's markets in the US
 
 # Getting Started
 

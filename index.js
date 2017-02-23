@@ -11,7 +11,11 @@ import {
   getFarmsByQuery,
   getFarmsByZip,
   getFarmsByState,
-} from './controllers/farm.controller'
+} from './controllers/farm.controller';
+
+import {
+  getLocationsByState,
+} from './controllers/location.controller';
 
 import {
   cleanUpStateNames,
@@ -63,9 +67,9 @@ connect()
     app.get('/tools/cleanUpStateNames/:name', cleanUpStateNames);
     app.get('/api/util/build-out-farms', buildoutFarmObject);
     app.get('/tools/compileFacilities', compileFacilities);
-    app.get('/api/locations', getLocations);
+    app.get('/api/locations', getLocationsByState);
     // app.get('/tools/readCSV', readCSV);  // don't turn on. you'll add duplicates
-    app.get('/tools/readFarmsCSV', readFarmsCSV);  // don't turn on. you'll add duplicates
+    // app.get('/tools/readFarmsCSV', readFarmsCSV);  // don't turn on. you'll add duplicates
 
     app.listen(5000, function() {
       debug('Farm Directory API listening on port 5000!');
