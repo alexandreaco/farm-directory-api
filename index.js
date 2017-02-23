@@ -42,8 +42,8 @@ connect()
       middleware.metadata(),
       middleware.CORS(),
       // middleware.files(),
-      // middleware.parseRequest(),
-      // middleware.validateRequest(),
+      middleware.parseRequest(),
+      middleware.validateRequest(),
       // middleware.mock()
     );
 

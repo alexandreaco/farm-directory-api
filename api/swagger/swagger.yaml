@@ -33,17 +33,23 @@ paths:
           type: string
       responses:
         "200":
-          description: "An array of location objects"
+          description: "An array of location objects and a count"
           schema:
             type: object
             properties:
               count:
+                type: number
+              rows:
                 type: array
-                $ref: "#/definitions/location"
+                items:
+                  $ref: "#/definitions/location"
+
 
 definitions:
   location:
     properties:
+      _id:
+        type: string
       name:
         type: string
       description:

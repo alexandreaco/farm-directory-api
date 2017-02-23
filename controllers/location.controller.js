@@ -3,7 +3,6 @@ import { slugify } from '../util/actions.js';
 var debug = require('debug')('app');
 
 export const getLocationsByState = (req, res) => {
-  debug('here')
   const query = {};
   if (req.query.state) {
     query.stateID = slugify(req.query.state);
@@ -17,6 +16,7 @@ export const getLocationsByState = (req, res) => {
     if (err) reject(err);
     res.send({
       count: data.length,
+      // swagger: req.swagger,
       rows: data,
     });
   });
