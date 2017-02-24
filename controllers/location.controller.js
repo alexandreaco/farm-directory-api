@@ -1,6 +1,6 @@
+/* eslint-disable import/prefer-default-export */
 import Location from '../models/location.model';
-import { slugify } from '../util/actions.js';
-var debug = require('debug')('app');
+import { slugify } from '../util/helpers';
 
 export const getLocationsByState = (req, res) => {
   const query = {};
@@ -12,12 +12,12 @@ export const getLocationsByState = (req, res) => {
   .populate('products')
   .populate('facilities')
   .populate('activities')
-  .exec(function (err, data) {
-    if (err) reject(err);
+  .exec((err, data) => {
+    if (err) res.send(err);
     res.send({
       count: data.length,
       // swagger: req.swagger,
       rows: data,
     });
   });
-}
+};

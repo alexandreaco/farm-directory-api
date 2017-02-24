@@ -1,6 +1,7 @@
 import Farm from '../models/farm.model';
-import { slugify } from '../util/actions.js';
-var debug = require('debug')('app');
+import { slugify } from '../util/helpers';
+
+const debug = require('debug')('app');
 
 export const getAllFarms = (req, res) => {
   Farm.find({}, (err, farms) => {
@@ -9,7 +10,7 @@ export const getAllFarms = (req, res) => {
     }
     debug(`found ${farms.length} farms`);
     res.send(farms);
-  })
+  });
 };
 
 export const getFarmsByQuery = (req, res) => {
@@ -30,4 +31,4 @@ export const getFarmsByQuery = (req, res) => {
     debug(`found ${farms.length} farms`);
     res.send(farms);
   });
-}
+};

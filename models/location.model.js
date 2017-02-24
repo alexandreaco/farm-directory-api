@@ -1,10 +1,11 @@
 //---
 // Location model
 
-var mongoose = require('mongoose');
-var Schema = mongoose.Schema
+const mongoose = require('mongoose');
 
-var locationSchema = mongoose.Schema({
+const Schema = mongoose.Schema;
+
+const locationSchema = mongoose.Schema({
   name: String,
   description: String,
   type: String,

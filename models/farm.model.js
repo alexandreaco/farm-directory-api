@@ -1,9 +1,9 @@
 //---
 // Farm model
 
-var mongoose = require('mongoose')
+const mongoose = require('mongoose');
 
-var farmSchema = mongoose.Schema({
+const farmSchema = mongoose.Schema({
   address: {
     street: String,
     city: String,

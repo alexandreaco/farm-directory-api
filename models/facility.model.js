@@ -1,9 +1,9 @@
 //---
 // Facility model
 
-var mongoose = require('mongoose');
+const mongoose = require('mongoose');
 
-var facilitySchema = mongoose.Schema({
+const facilitySchema = mongoose.Schema({
   name: String,
 });
 

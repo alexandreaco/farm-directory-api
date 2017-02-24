@@ -1,9 +1,9 @@
 //---
 // Product model
 
-var mongoose = require('mongoose');
+const mongoose = require('mongoose');
 
-var productSchema = mongoose.Schema({
+const productSchema = mongoose.Schema({
   name: String,
 });
 

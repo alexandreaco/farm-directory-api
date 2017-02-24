@@ -1,9 +1,9 @@
 //---
 // Activity model
 
-var mongoose = require('mongoose');
+const mongoose = require('mongoose');
 
-var activitySchema = mongoose.Schema({
+const activitySchema = mongoose.Schema({
   name: String,
 });
 
