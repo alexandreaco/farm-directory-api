@@ -15,6 +15,8 @@ import {
   // readCSV,
   // readFarmsCSV,
 } from './util/csvMigration';
+import catchErrors from './middleware/catchErrors';
+import logger from './middleware/logger';
 
 const express = require('express');
 const debug = require('debug')('app');
@@ -35,12 +37,13 @@ connect()
     // Add all the Swagger Express Middleware, or just the ones you need.
     // NOTE: Some of these accept optional options (omitted here for brevity)
     app.use(
+
       ware.metadata(),
       ware.CORS(),
-      // ware.files(),
       ware.parseRequest(),
       ware.validateRequest(),
-      // ware.mock()
+      logger,
+      catchErrors, // catch any remaining errors
     );
 
     //---

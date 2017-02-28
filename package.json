@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "start": "DEBUG=app babel-node index.js",
+    "start": "DEBUG=app,logger,error babel-node index.js",
     "lint": "./node_modules/.bin/eslint ."
   },
   "author": "Alexandrea Defreitas",
