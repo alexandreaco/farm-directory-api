@@ -4,7 +4,7 @@
 const mongoose = require('mongoose');
 
 const facilitySchema = mongoose.Schema({
-  name: String,
+  name: { type: String, required: true },
 });
 
 const Facility = mongoose.model('Facility', facilitySchema);

@@ -5,37 +5,45 @@ const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
 
+const locSubSchema = new Schema({
+  lat: String,
+  lon: String,
+});
+
+const contactSubSchema = new Schema({
+  website: String,
+  facebook: String,
+  twitter: String,
+  youtube: String,
+  instagram: String,
+});
+
+const addressSubSchema = new Schema({
+  street: String,
+  city: String,
+  county: String,
+  state: String,
+  zip: String,
+});
+
+const paymentSubSchema = new Schema({
+  hasCredit: Boolean,
+  hasWIC: Boolean,
+  hasWICcash: Boolean,
+  hasSFMNP: Boolean,
+  hasSNAP: Boolean,
+});
+
 const locationSchema = mongoose.Schema({
-  name: String,
+  name: { type: String, required: true },
   description: String,
-  type: String,
-  contact: {
-    website: String,
-    facebook: String,
-    twitter: String,
-    youtube: String,
-    instagram: String,
-  },
-  address: {
-    street: String,
-    city: String,
-    county: String,
-    state: String,
-    zip: String,
-  },
-  loc: {
-    lat: String,
-    lon: String,
-  },
-  payment: {
-    hasCredit: Boolean,
-    hasWIC: Boolean,
-    hasWICcash: Boolean,
-    hasSFMNP: Boolean,
-    hasSNAP: Boolean,
-  },
+  type: { type: String, required: true },
+  contact: { type: contactSubSchema },
+  address: { type: addressSubSchema },
+  loc: { type: locSubSchema, required: true },
+  payment: { type: paymentSubSchema },
   products: [{ type: Schema.Types.ObjectId, ref: 'Product' }],
-  stateID: String,
+  stateID: { type: String, required: true },
   seasons: [{
     days: String,
     time: String,
