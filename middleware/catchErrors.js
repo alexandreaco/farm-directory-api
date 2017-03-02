@@ -4,10 +4,10 @@ const debug = require('debug')('error');
 const catchErrors = (err, req, res, next) => {
   const date = new Date();
   debug(`${err.status}: ${err.message} \n ${date.toUTCString()} ${req.method} ${req.url}`);
-  res.status(err.status);
+  res.status(err.status || 404);
   res.send({
     error: {
-      status: err.status,
+      status: err.status || 404,
       message: err.message,
     },
   });

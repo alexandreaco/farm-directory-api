@@ -1,7 +1,7 @@
 import connect from './util/db';
 import registerModels from './models';
 import {
-  getLocationsByState,
+  getLocationsByQuery,
 } from './controllers/location.controller';
 import catchErrors from './middleware/catchErrors';
 import logger from './middleware/logger';
@@ -26,14 +26,14 @@ connect()
       ware.parseRequest(),
       ware.validateRequest(),
       logger,
-      catchErrors, // catch any remaining errors
+      // catchErrors, // catch any remaining errors
     );
 
     // Routes
     app.get('/', (req, res) => {
       res.send('👋');
     });
-    app.get('/api/locations', getLocationsByState);
+    app.get('/api/locations', getLocationsByQuery);
 
     // Util routes for development help
     // app.get('/tools/cleanUpStateNames/:name', cleanUpStateNames);
@@ -41,6 +41,8 @@ connect()
     // app.get('/tools/compileFacilities', compileFacilities);
     // app.get('/tools/readMarketsCSV', readCSV);  // don't turn on. you'll add duplicates
     // app.get('/tools/readFarmsCSV', readFarmsCSV);  // don't turn on. you'll add duplicates
+
+    app.use(catchErrors);
 
     app.listen(5000, () => {
       debug('Farm Directory API listening on port 5000!');

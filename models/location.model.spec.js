@@ -7,7 +7,7 @@ describe('Location.model', () => {
     const a = new Location();
     a.validate((err) => {
       expect(err.errors.name).to.exist;
-      expect(err.errors.loc).to.exist;
+      expect(err.errors.geo).to.exist;
       expect(err.errors.type).to.exist;
       expect(err.errors.stateID).to.exist;
       done();

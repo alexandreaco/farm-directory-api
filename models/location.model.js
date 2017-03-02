@@ -5,11 +5,6 @@ const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
 
-const locSubSchema = new Schema({
-  lat: String,
-  lon: String,
-});
-
 const contactSubSchema = new Schema({
   website: String,
   facebook: String,
@@ -40,7 +35,11 @@ const locationSchema = mongoose.Schema({
   type: { type: String, required: true },
   contact: { type: contactSubSchema },
   address: { type: addressSubSchema },
-  loc: { type: locSubSchema, required: true },
+  geo: {
+    type: [Number], // [ longitude, latitude ]
+    index: '2d',      // geospatial index
+    required: true,
+  },
   payment: { type: paymentSubSchema },
   products: [{ type: Schema.Types.ObjectId, ref: 'Product' }],
   stateID: { type: String, required: true },
