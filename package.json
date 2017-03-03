@@ -1,7 +1,7 @@
 {
   "name": "farmers-markets",
   "version": "1.0.0",
-  "description": "get farmers markets from csv",
+  "description": "location based api for farms and markets",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --compilers js:babel-core/register --reporter min **/**.spec.js",
