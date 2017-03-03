@@ -37,9 +37,7 @@ export const getLocationsByQuery = (req, res, next) => { // eslint-disable-line 
 
   Location.find(query)
   .limit(limit)
-  .populate('products')
-  .populate('facilities')
-  .populate('activities')
+  .populate('products facilities activities')
   .exec((err, data) => {
     if (err) {
       res.send(err);
