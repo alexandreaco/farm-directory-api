@@ -21,10 +21,4 @@ Then `$ npm start` to boot the server
 
 Access the server from `http://localhost:5000/`
 
-# Available Routes
-
-- `/api` will return an array of all farms in the database.
-
-- `/api/zip/:zipcode` will return an array of all farms in that zipcode.
-
-- `/api/state/:state` will return an array of all farms in that state. *Note: The state is stored as a slug*
+__Check Swagger spec for available routes__
