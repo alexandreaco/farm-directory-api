@@ -27,10 +27,20 @@ paths:
     get:
       summary: "List of locations (farms & markets)"
       parameters:
-        - name: state
+        - name: lat
           in: query
-          description: "Which state to filter locations by"
-          type: string
+          description: "latitude"
+          type: number
+          required: true
+        - name: lon
+          in: query
+          description: "longitude"
+          type: number
+          required: true
+        - name: distance
+          in: query
+          description: "search radius in miles"
+          type: number
       responses:
         "200":
           description: "An array of location objects and a count"
@@ -44,8 +54,80 @@ paths:
                 items:
                   $ref: "#/definitions/location"
 
-
 definitions:
+  contact:
+    properties:
+      website:
+        type: string
+      facebook:
+        type: string
+      twitter:
+        type: string
+      youtube:
+        type: string
+      instagram:
+        type: string
+
+  address:
+    properties:
+      street:
+        type: string
+      city:
+        type: string
+      county:
+        type: string
+      state:
+        type: string
+      zip:
+        type: string
+
+  payment:
+    properties:
+      hasCredit: boolean
+    hasWIC:
+      hasCredit: boolean
+    hasWICcash:
+      hasCredit: boolean
+    hasSFMNP:
+      hasCredit: boolean
+    hasSNAP:
+      hasCredit: boolean
+
+  product:
+    properties:
+      _id:
+        type: string
+      name:
+        type: string
+
+  season:
+    properties:
+      _id:
+        type: string
+      day:
+        type: string
+      time:
+        type: string
+      notes:
+        type: string
+      products:
+        type: array
+        items: "#/definitions/product"
+
+  facility:
+    properties:
+      _id:
+        type: string
+      name:
+        type: string
+
+  activity:
+    properties:
+      _id:
+        type: string
+      name:
+        type: string
+
   location:
     properties:
       _id:
@@ -54,3 +136,29 @@ definitions:
         type: string
       description:
         type: string
+      type:
+        type: string
+      contact:
+        $ref: "#/definitions/contact"
+      address:
+        $ref: "#/definitions/address"
+      geo:
+        type: array
+        items:
+          type: number
+      payment:
+        $ref: "#/definitions/payment"
+      products:
+        type: array
+        items: "#/definitions/product"
+      stateID:
+        type: string
+      seasons:
+        type: array
+        items: "#/definitions/season"
+      facilities:
+        type: array
+        items: "#/definitions/facility"
+      activities:
+        type: array
+        items: "#/definitions/activity"
