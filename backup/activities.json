@@ -9,3 +9,913 @@
 {"_id":{"$oid":"58a756ec4b8a02185d3e3790"},"name":"Petting zoo"}
 {"_id":{"$oid":"58a756ec4b8a02185d3e3791"},"name":"Pumpkin shooting"}
 {"_id":{"$oid":"58a756ec4b8a02185d3e3792"},"name":"Celebrations/ corporate events"}
+{"_id":{"$oid":"58ab59a4ec97b513189752c6"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a4ec97b513189752c7"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a4ec97b513189752c8"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a4ec97b513189752c9"},"name":"Other: butterfly house  hiking trails etc.","__v":0}
+{"_id":{"$oid":"58ab59a4ec97b513189752ca"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a4ec97b513189752cb"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a4ec97b513189752cc"},"name":"Other: fruit and fruit tree sales","__v":0}
+{"_id":{"$oid":"58ab59a4ec97b513189752cd"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a4ec97b513189752ce"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752cf"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752d0"},"name":"Other: Wagon ride with actors commemorating 150th anniversary of Civil War","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752d1"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752d2"},"name":"Other: milk a cow","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752d3"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752d4"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752d5"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752d6"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752d7"},"name":"Other: entertainment and special events","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752d8"},"name":"Other: Horse training  special events  horse rentals  lessons. Play days in the garden.","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752d9"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752da"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752db"},"name":"Other: We will host non-profit animal related fundraisers.","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752dc"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752dd"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752de"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752df"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752e0"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752e1"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752e2"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752e3"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752e4"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752e5"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752e6"},"name":"Other: Tours","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752e7"},"name":"Other: Annual farm tour and hay rides third weekend in October.","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752e8"},"name":"Other: Annual farm tour and hay ride at our Buckeystown location  third weekend in October  see our listing under Nick's Orgnanic Farm-Buckeystown.","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752e9"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752ea"},"name":"Other: FunZone  Gem Mining  Fossil Adventure  Bee Hive Exhibit  Ant Farm","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752eb"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752ec"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752ed"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752ee"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752ef"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752f0"},"name":"Other: School groups  4H","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752f1"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752f2"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752f3"},"name":"Other: National Alpaca Farm Days","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752f4"},"name":"Other: Funny Farm Laughter Club","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752f5"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752f6"},"name":"Other: Fishing","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752f7"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752f8"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752f9"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752fa"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752fb"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752fc"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752fd"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752fe"},"name":"Other: Farm tours by appointment","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189752ff"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975300"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975301"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975302"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975303"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975304"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975305"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975306"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975307"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975308"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975309"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897530a"},"name":"Other: Annual Heirloom Tomato Festival (Last Sat. in Aug.","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897530b"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897530c"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897530d"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897530e"},"name":"Other: farm camp programs for schools: www.123farm/school","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897530f"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975310"},"name":"Other: U-Pick berry farm with 5.5 acres of small fruit crops","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975311"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975312"},"name":"Other: Farm tours on horse back.","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975313"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975314"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975315"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975316"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975317"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975318"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975319"},"name":"Other: Food for Thought Festival  September 26","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897531a"},"name":"Other: Picture Yourself at a Cranberry Harvest","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897531b"},"name":"Other: FARM RAISED MEATS  EGGS AND POULTRY. ALL ARE STATE INSPECTED","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897531c"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897531d"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897531e"},"name":"Other: Story Time","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897531f"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975320"},"name":"Other: spend a day on a 19th century farm surrounded by national forest","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975321"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975322"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975323"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975324"},"name":"Other: Seminars and Open House","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975325"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975326"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975327"},"name":"Other: Straw Fort  Duck Race  Goat Walk  Cute Haunted House","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975328"},"name":"Other: 3 annual events - spring  summer  fall  check website for dates","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975329"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897532a"},"name":"Other: Garlic Braiding demonstrations on Saturday mornings 10:00am throughout August","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897532b"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897532c"},"name":"Other: Visiting goat kids May-June","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897532d"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897532e"},"name":"Other: Walking trail to visit the farm animals","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897532f"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975330"},"name":"Other: Barrel Train Rides  Bon-fire Sites \u0026 more!","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975331"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975332"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975333"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975334"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975335"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975336"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975337"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975338"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975339"},"name":"Other: Apple sling shot  disc golf  picnic  kids playscape","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897533a"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897533b"},"name":"Other: Fort Delicious  apple cart ride  trike race  spider web climb  hay mountain  etc..","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897533c"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897533d"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897533e"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897533f"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975340"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975341"},"name":"Other: Photograhpy","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975342"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975343"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975344"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975345"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975346"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975347"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975348"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975349"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897534a"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897534b"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897534c"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897534d"},"name":"Other: nature hike  bird watcher hike","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897534e"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897534f"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975350"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975351"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975352"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975353"},"name":"Other: barn yard animals.","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975354"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975355"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975356"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975357"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975358"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975359"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897535a"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897535b"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897535c"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897535d"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897535e"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897535f"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975360"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975361"},"name":"Other: Nature trails  many farm-themed play areas  field trips  campfire parties","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975362"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975363"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975364"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975365"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975366"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975367"},"name":"Other: Fall harvest festival featuring blue crab and oysters","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975368"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975369"},"name":"Other: Holiday show in cottage barn  representing over 25 artists and functional wares.","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897536a"},"name":"Other: Feed the fish in farm ponds  1-1/2 miles of mowed walking paths.","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897536b"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897536c"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897536d"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897536e"},"name":"Other: Annual Blueberry Festival","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897536f"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975370"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975371"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975372"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975373"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975374"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975375"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975376"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975377"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975378"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975379"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897537a"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897537b"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897537c"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897537d"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897537e"},"name":"Other: See how fresh msuhrooms are grown","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897537f"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975380"},"name":"Other: See the bees","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975381"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975382"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975383"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975384"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975385"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975386"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975387"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975388"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975389"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897538a"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897538b"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897538c"},"name":"Other: Pasture walks  Farmstead Teas","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897538d"},"name":"Other: Short stays available in spacious  modern apartment.","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897538e"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897538f"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975390"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975391"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975392"},"name":"Other: Puppet Shows  Corn Shock Cavern","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975393"},"name":"Hamster Wheels  Obstacle Course  Number \u0026 Rope Maze  Western Area  Tractor Tire Trail  Haymow Adventures  Pony Swings  Trike Track  Discovery Box  Bolt Table  Music Garden  Honey Bee Barn  Giant Slides","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975394"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975395"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975396"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975397"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975398"},"name":"Other: Pumpkin Patch with a Hay Ride in October. U-Pick Apples. U-Pick Blackberries","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b51318975399"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897539a"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897539b"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897539c"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897539d"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897539e"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b5131897539f"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753a0"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753a1"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753a2"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753a3"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753a4"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753a5"},"name":"Other: corporate team building  menagerie  4-H  parkland trails","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753a6"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753a7"},"name":"Other: Horse Drawn Sleigh Rides in winter","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753a8"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753a9"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753aa"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753ab"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753ac"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753ad"},"name":"Other: Petting farm  educational tours  birthday parties","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753ae"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753af"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753b0"},"name":"Other: interaction with animals","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753b1"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753b2"},"name":"Other: Farm tour through People First Tourism","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753b3"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753b4"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753b5"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753b6"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753b7"},"name":"Other: Volunteer opportunities","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753b8"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753b9"},"name":"Other: Community Open Farm in October","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753ba"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753bb"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753bc"},"name":"Other: Family Fun Park  U-Pick Friuts  \u0026 Vegetables  Fall Festival Weekends  Nighttime Activities - Zombie Paintball","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753bd"},"name":"Other: Nature trails","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753be"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753bf"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753c0"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753c1"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753c2"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753c3"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753c4"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753c5"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753c6"},"name":"Other: By appointment or scheduled tour date","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753c7"},"name":"Other: will talk about cranberry harvest","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753c8"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753c9"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753ca"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753cb"},"name":"Other: Rides to and from tree fields.","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753cc"},"name":"Other: Florida Master Gardener of Broward County on site during hours","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753cd"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753ce"},"name":"Other: Farm Tours  Llamas For Sale  and Llama Treks","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753cf"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753d0"},"name":"Other: ABSOLUTELY NO Pesticide  Herbicide OR ripening agents sprayed on or near our Berries!! -","__v":0}
+{"_id":{"$oid":"58ab59a5ec97b513189753d1"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753d2"},"name":"Other: Walking trails through woods to Pigg River","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753d3"},"name":"Other: Bird watching  conservation tours","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753d4"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753d5"},"name":"Other: Demonstrations of sheep shearing and other wool processes.","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753d6"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753d7"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753d8"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753d9"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753da"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753db"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753dc"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753dd"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753de"},"name":"Other: Pasture visits to potential Yak buyers","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753df"},"name":"Other: Enchanted Hayrides (non - frightening)  Haunted Overload Halloween Haunt  Reason for the Season","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753e0"},"name":"Other: farm tours","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753e1"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753e2"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753e3"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753e4"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753e5"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753e6"},"name":"Other: Tours by request","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753e7"},"name":"Other: crafts playground.Some activities only during Pumpkinfest Sept-Oct","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753e8"},"name":"Other: Rustic Farm Weddings Venue in New Jersey at DiMeo's Farm Outdoor Wedding Location","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753e9"},"name":"Other: worm farm demo strations and fabrication of bins.","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753ea"},"name":"Other: Customers are welcome to watch milking process","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753eb"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753ec"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753ed"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753ee"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753ef"},"name":"Other: Farm Stays.","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753f0"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753f1"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753f2"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753f3"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753f4"},"name":"Other: Informal visits with alpacas  hands-on mentoring for new alpaca owners.","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753f5"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753f6"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753f7"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753f8"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753f9"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753fa"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753fb"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753fc"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753fd"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753fe"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189753ff"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975400"},"name":"Other: Bed \u0026 Breakfast","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975401"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975402"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975403"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975404"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975405"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975406"},"name":"Other: We've been practicing organic \u0026 natural farming methods since 1973 on our 3 acres.","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975407"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975408"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975409"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897540a"},"name":"Other: Antique tractors  rose gardens  picnic pavilion  garden pond","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897540b"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897540c"},"name":"Other: Magical Christmas Event: Nov 20-Dec 10","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897540d"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897540e"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897540f"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975410"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975411"},"name":"Other: Farm festivals","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975412"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975413"},"name":"Other: Farm Stay","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975414"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975415"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975416"},"name":"Other: Vineyard tours","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975417"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975418"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975419"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897541a"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897541b"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897541c"},"name":"Other: Quail \u0026 Pheasant Hunts available by Reservation Only","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897541d"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897541e"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897541f"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975420"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975421"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975422"},"name":"Other: Wheel chair assessible horse drawn hayrides.","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975423"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975424"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975425"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975426"},"name":"Other: barrel train ride  popcorn wagon ride","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975427"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975428"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975429"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897542a"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897542b"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897542c"},"name":"Other: Food : family Cooking Classes at off site location 2nd Saturday of each month Year round.  Email or call for more information","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897542d"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897542e"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897542f"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975430"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975431"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975432"},"name":"Other: Live music at the Farm House Grille on selected weekends  check website. Tree-mendous maze  face painting","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975433"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975434"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975435"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975436"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975437"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975438"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975439"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897543a"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897543b"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897543c"},"name":"Other: browsing fresh raw foods in the garden","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897543d"},"name":"Other: walking a llama","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897543e"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897543f"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975440"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975441"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975442"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975443"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975444"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975445"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975446"},"name":"Other: summer camps for children and educational events for all ages.","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975447"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975448"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975449"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897544a"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897544b"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897544c"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897544d"},"name":"Other: Customers can use our equipment to press grapes into juice by appointment.","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897544e"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897544f"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975450"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975451"},"name":"Other: 7 Path Labyrinth  Path through woods","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975452"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975453"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975454"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975455"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975456"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975457"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975458"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975459"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897545a"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897545b"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897545c"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897545d"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897545e"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897545f"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975460"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975461"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975462"},"name":"Other: We offer volunteer opportunities to groups of all ages to assist on the farm.  Walking trail around the pond along with canoe  kayak  and paddle boat activities.","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975463"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975464"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975465"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975466"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975467"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975468"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975469"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897546a"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897546b"},"name":"Other: Seed saving workshops","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897546c"},"name":"Other: treasure hunt find a baby pumpkinn in field","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897546d"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897546e"},"name":"Other: Train Rides  Covered wagon rides.","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897546f"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975470"},"name":"Other: Tour and Tea  or Tour  Lunch and Tea  by appointment. See website for details and reservations","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975471"},"name":"Other: family picnics and outings  occasional brat frys","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975472"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975473"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975474"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975475"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975476"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975477"},"name":"Other: Farm to Fork Dinners  Farm Stays","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975478"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975479"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897547a"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897547c"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897547b"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897547d"},"name":"Other: Bed 'n Breakfast farm stay","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897547e"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897547f"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975480"},"name":"Other: Miniature Horse  Micro Mini Donkey and Pot Belly Pig on site","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975481"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975482"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975483"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975484"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975485"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975486"},"name":"Other: Available for 4H Tours","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975487"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975488"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975489"},"name":"Other: Spring and Fall Planting Festivals with guest speakers who are experts in their field.","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897548a"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897548b"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897548c"},"name":"Other: Lavender Festival July 18 \u0026 19  2015","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897548d"},"name":"Other: We have lots of Pumpkins and Fall Decor in the Fall!","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897548e"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897548f"},"name":"Other: Call for appointment. We also offer farming services to your location","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975490"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975491"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975492"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975493"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975494"},"name":"Other: Pumpkin Patch and Christmas Tree. Hydroponic Growers Classes","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975495"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975496"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975497"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975498"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975499"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897549a"},"name":"Other:  playground  weddings","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897549b"},"name":"Other: seed production","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897549c"},"name":"Other: Locally-sourced brick oven pizza most summer Friday evenings","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897549d"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897549e"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897549f"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754a0"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754a1"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754a2"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754a3"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754a4"},"name":"Other: 7th Annual FARM FAIR the first Saturday in August","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754a5"},"name":"10am-2pm. 25-35 Guest Vendors  beef specials  lunch served by the local 4-H group 11-1.","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754a6"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754a7"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754a8"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754a9"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754aa"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754ab"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754ac"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754ad"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754ae"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754af"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754b0"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754b1"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754b2"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754b3"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754b4"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754b5"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754b6"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754b7"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754b8"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754b9"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754ba"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754bb"},"name":"Other: Special events weekends in September/October: Desserts Galore 9/20-21  Honeycrisp Harvest 10/4-5  Fiesta Days 10/18-19 and Heirloom Harvest and Hard Cider Tasting weekend 10/25-26.","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754bc"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754bd"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754be"},"name":"Other: Hiking trails  picnic area","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754bf"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754c0"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754c1"},"name":"Other: Archery Course","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754c2"},"name":"Other: Pleasant visits.","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754c3"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754c4"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754c5"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754c6"},"name":"Other: farm tours and instruction","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754c7"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754c8"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754c9"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754ca"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754cb"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754cc"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754cd"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754ce"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754cf"},"name":"Other: Live Music and shuttle rides","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754d0"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754d1"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754d2"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754d3"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754d4"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754d5"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754d6"},"name":"Other: Eco tour of food waste recycling operation a project funded by the Missouri Department of Natural Resources and Mark Twain Solid Waste Management District.","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754d7"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754d8"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754d9"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754da"},"name":"Other: Finger Lakes Lavender Festival  held second weekend of July.","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754db"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754dc"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754dd"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754de"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754df"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754e0"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754e1"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754e2"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754e3"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754e4"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754e5"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754e6"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754e7"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754e8"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754e9"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754ea"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754eb"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754ec"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754ed"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754ee"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754ef"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754f0"},"name":"Other: We do free wagon rides during Honeycrisp  season  and have a 40 foot tower.","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754f1"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754f2"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754f3"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754f4"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754f5"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754f6"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754f7"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754f8"},"name":"Other: farm animal display area","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754f9"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754fa"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754fb"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754fc"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754fd"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754fe"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b513189754ff"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975500"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975501"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975502"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975503"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975504"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975505"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897550a"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897550b"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975507"},"name":"Other: Antique farm primitives and tractor disply.","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975508"},"name":"Other: Tour of a 20 hive Apiary","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975509"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975506"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897550c"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897550d"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897550e"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897550f"},"name":"Other: Pick your own is limited to weekend pumpkin picking \u0026 weekday school group pumpkin picking","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975510"},"name":"Other: Bird watching and Fish Pond","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975511"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975512"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975513"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975514"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975515"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975516"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975517"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975518"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975519"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897551a"},"name":"Other: Farm Animals  Live Music","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897551b"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897551c"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897551d"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897551e"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897551f"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975520"},"name":"Other: Farm Stays","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975521"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975522"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975523"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975524"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975525"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975526"},"name":"Other: View high-intensity urban ag activities","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975527"},"name":"chip in on farm chores","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975528"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975529"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897552a"},"name":"Other: Learn more about alpacas  their extremely fine fiber and llamas.","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897552b"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897552c"},"name":"Other: We offer educational tours where you can touch an alpaca and learn about them.","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897552d"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897552e"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897552f"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975530"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975531"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975532"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975533"},"name":"Other: Wine tasting \u0026 sales","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975534"},"name":"Other: Educational Tours","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975535"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975536"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975537"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975538"},"name":"Other: MaiFest  Amana Arts Guild \"Art in the Park\"  Oktoberfest  Fall Fiber \u0026 Clay Fest - Amana Arts Guild","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975539"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897553a"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897553b"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897553c"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897553d"},"name":"Other: Ontario Orchards Fall Jamboree  Sept. 19 \u0026 20  2015 At our Farm in Sterling  NY 13156","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897553e"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897553f"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975540"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975541"},"name":"Other: Spring Open House in April/May","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975542"},"name":"Other: Cider Fest (a family friendly harvest celebration) October 10 \u0026 11th  2015","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975543"},"name":"Other: Organic but not certified","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975544"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975545"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975546"},"name":"Other: Horse riding training and services  please check the website.","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975547"},"name":"Other: overnight lodging starting in 2015","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975548"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975549"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897554a"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897554b"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897554c"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897554d"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897554e"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897554f"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975550"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975551"},"name":"Other: Sweat Lodge  Wine \u0026 Paint  Sunset Vinyasa Yoga","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975552"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975553"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975554"},"name":"Other: Weddings  pig races  World of Mazes  children's play area  yard games","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975555"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975556"},"name":"Other: Learn about FoodScaping and edible landscape design using PermaCulture principals","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975557"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975558"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975559"},"name":"Other: Photographers and videographers welcome. Please call to arrange a time.","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897555a"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897555b"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897555c"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897555d"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897555e"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b5131897555f"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975560"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975561"},"name":"Other: Fall Family Fun","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975562"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975563"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975564"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975565"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975566"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975567"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a6ec97b51318975568"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975569"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897556a"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897556b"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897556c"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897556d"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897556e"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897556f"},"name":"Other: Tractor rides","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975570"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975571"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975572"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975573"},"name":"Other: mushroom log inoculation classes","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975574"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975575"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975576"},"name":"Other: Tours by appointment only","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975577"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975578"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975579"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897557a"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897557b"},"name":"Other: Farm tours.","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897557c"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897557d"},"name":"Other: Pumpkin Patch","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897557e"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897557f"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975580"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975581"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975582"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975583"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975584"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975585"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975586"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975587"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975588"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975589"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897558a"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897558b"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897558c"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897558d"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897558e"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897558f"},"name":"Other: Summer Children's Educational Workshops","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975590"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975591"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975592"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975593"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975594"},"name":"Other: 14 horse carousel  Wattman Trackless Train  Apple Tree Maze  Playground","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975595"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975596"},"name":"Other: Fall School Field Trips","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975597"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975598"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975599"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897559a"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897559b"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897559c"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897559d"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897559e"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897559f"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755a0"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755a1"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755a2"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755a3"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755a4"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755a5"},"name":"Other: Sheep Shearing and Sheep Management Consulting","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755a6"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755a7"},"name":"Other: spring summer fall festivals","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755a8"},"name":"Other: Various classes and events","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755a9"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755aa"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755ab"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755ac"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755ad"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755ae"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755af"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755b0"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755b1"},"name":"Other: Wine Tastings  Private Events  Annual Fall Festival Oct 3-4 \u0026 10-11","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755b2"},"name":"Other: 10+ other fall activiteis","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755b3"},"name":"Other: Vacation apartment rental","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755b4"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755b5"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755b6"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755b7"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755b8"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755b9"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755ba"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755bb"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755bc"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755bd"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755be"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755bf"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755c0"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755c1"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755c2"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755c3"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755c4"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755c5"},"name":"Other: Wine Tastings","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755c6"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755c7"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755c8"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755c9"},"name":"Other: Sales of breeding Boer Goats and butcher wethers","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755ca"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755cb"},"name":"Other: maple syrup open house during maple season.","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755cc"},"name":"Other: Enjoy over 35 fun farm activities for the entire family!","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755cd"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755ce"},"name":"Other: Fishing","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755cf"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755d0"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755d1"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755d2"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755d3"},"name":"Other: Train Rides","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755d4"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755d5"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755d6"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755d7"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755d8"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755d9"},"name":"Other: We are usually available to provide an individual tour of our farm","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755da"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755db"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755dc"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755dd"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755de"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755df"},"name":"Other: Visitors are welcome to spend time with the alpacas - by appointment only.","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755e0"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755e1"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755e2"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755e3"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755e4"},"name":"Other: We are connected with Equine Center and Animal Science for additional tours/education.","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755e5"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755e6"},"name":"Other: Playground  Picnic Area","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755e7"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755e8"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755e9"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755ea"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755eb"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755ec"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755ed"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755ee"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755ef"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755f0"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755f1"},"name":"Other: Gold Family Farm Flea Market  Crafts and Swap Meet the 3rd weekend in October with pick your own pumpkins and hayrides","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755f2"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755f3"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755f4"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755f5"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755f6"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755f7"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755f8"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755f9"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755fa"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755fb"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755fc"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755fd"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755fe"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b513189755ff"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975600"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975601"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975602"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975603"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975604"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975605"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975606"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975607"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975608"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975609"},"name":"Other: Boo Barn  Pumpkinland  too much to list!","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897560a"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897560b"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897560c"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897560d"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897560e"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897560f"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975610"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975611"},"name":"Other: kids corn pit","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975612"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975613"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975614"},"name":"Other: Berry Cafe is open during all regular hours.","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975615"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975616"},"name":"Other: Tour to see the cattle out on the grazing land.","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975617"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975618"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975619"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897561a"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897561b"},"name":"Other: hard cider tastings and heirloom fruit tastings","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897561c"},"name":"Other: Hay ride farm tours on Saturdays - reservations suggested as tours are upon request and subject to available staff.","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897561d"},"name":"Other: We will be offering opportunities to learn about growing and preserving food.","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897561e"},"name":"Other: CSA Program","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897561f"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975620"},"name":"Other: VIVA New Mexico Chile Festival","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975621"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975622"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975623"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975624"},"name":"Other: Farm tours","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975625"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975626"},"name":"Other: Arrange tours and demonstration of antique farm equipment.","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975627"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975628"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975629"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897562a"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897562b"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897562c"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897562d"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897562e"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897562f"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975630"},"name":"Other: On farm pond with fishing  boarding kennel","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975631"},"name":"Other: PYO as often as possible  Family-friendly activities","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975632"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975633"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975634"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975635"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975636"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975637"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975638"},"name":"Other: pumpkin patch and greenhouse open to public","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975639"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897563a"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897563b"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897563c"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897563d"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897563e"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897563f"},"name":"Other: farm tour","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975640"},"name":"Other: farm animals to visit  trail to walk","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975641"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975642"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975643"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975644"},"name":"Other: Open Farm Day (2nd Saturday of every month) featuring farm tours  information on alpacas  meet the alpaca  farm store open.  Please check website for updates as we sometimes do not do Open Farm Day in the hot summer months.","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975645"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975646"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975647"},"name":"Other: Open free to the public every day","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975648"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975649"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897564a"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897564b"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897564c"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897564d"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897564e"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b5131897564f"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975650"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975651"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975652"},"name":"","__v":0}
+{"_id":{"$oid":"58ab59a7ec97b51318975653"},"name":"","__v":0}

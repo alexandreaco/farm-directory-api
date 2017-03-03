@@ -2,3 +2,5 @@
 {"_id":{"$oid":"58a752ae4b8a02185d3e3785"},"name":"Hand washing station(s)"}
 {"_id":{"$oid":"58a752ae4b8a02185d3e3786"},"name":"Picnic areas without tables"}
 {"_id":{"$oid":"58a752ae4b8a02185d3e3787"},"name":"Picnic areas with tables"}
+{"_id":{"$oid":"58ab67b88b6c7f153685e418"},"name":"Flush Toilets","__v":0}
+{"_id":{"$oid":"58ab68ca63987d155d7c5f50"},"name":"","__v":0}
