@@ -44,7 +44,7 @@ connect()
 
     app.use(catchErrors);
 
-    app.listen(5000, () => {
+    app.listen(app.get('port'), () => {
       debug('Farm Directory API listening on port 5000!');
     });
   });
